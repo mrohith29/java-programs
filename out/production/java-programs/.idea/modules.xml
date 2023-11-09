@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstraction/Abstraction_interface.iml" filepath="$PROJECT_DIR$/Abstraction/Abstraction_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task1/Task1.iml" filepath="$PROJECT_DIR$/Task1/Task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task2/Task2.iml" filepath="$PROJECT_DIR$/Task2/Task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-programs.iml" filepath="$PROJECT_DIR$/.idea/java-programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/object-oriented-programs/object-oriented-programs.iml" filepath="$PROJECT_DIR$/object-oriented-programs/object-oriented-programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task2/src/static/static.iml" filepath="$PROJECT_DIR$/Task2/src/static/static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task2/src/super_keyword/super_keyword.iml" filepath="$PROJECT_DIR$/Task2/src/super_keyword/super_keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task2/src/this_keyword/this_keyword.iml" filepath="$PROJECT_DIR$/Task2/src/this_keyword/this_keyword.iml" />
+    </modules>
+  </component>
+</project>
