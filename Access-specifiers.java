@@ -1,7 +1,7 @@
 // This is a simple Java program that uses access specifiers
 
 // Public class can be accessed from anywhere
-public class AccessSpecifiersDemo {
+class AccessSpecifiersDemo {
     // Public field can be accessed from anywhere
     public int publicField = 10;
     
