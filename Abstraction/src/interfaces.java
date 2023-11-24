@@ -19,6 +19,9 @@ class interfaceExe implements In1 {
     public void myMethod() {
         System.out.println("This is class method");
     }
+//    public void myMethod() {
+//        System.out.println("This is the myMethod which is declared in the interface");
+//    }
 }
 public class interfaces {
     public static void main(String[] args) {
