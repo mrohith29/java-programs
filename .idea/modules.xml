@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/Task2/src/static/static.iml" filepath="$PROJECT_DIR$/Task2/src/static/static.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2/src/super_keyword/super_keyword.iml" filepath="$PROJECT_DIR$/Task2/src/super_keyword/super_keyword.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2/src/this_keyword/this_keyword.iml" filepath="$PROJECT_DIR$/Task2/src/this_keyword/this_keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/typecasting/typecasting.iml" filepath="$PROJECT_DIR$/typecasting/typecasting.iml" />
     </modules>
   </component>
 </project>
