@@ -31,3 +31,4 @@ public class basic_declaration {
 
 // String datatype is different from the string class
 // i.e., String st = "rohith" is different from String str = new String("rohith")
+
