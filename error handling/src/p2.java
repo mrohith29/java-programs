@@ -2,14 +2,14 @@ import java.util.*;
 import java.io.IOException;
 
 class pc2 {
-    void pm1() throws IOException {
+    void pm1() throws Exception {
         System.out.println("success");
         throw new ArithmeticException("ArithmaticException");
     }
 
-    void pm2() throws ArithmeticException, IOException {
+    void pm2() throws Exception {
         pm1();
-        throw new ArithmeticException("IOException");
+        throw new IOException("IOException");
     }
 
     void pm3() {

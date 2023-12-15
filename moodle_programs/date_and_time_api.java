@@ -6,11 +6,11 @@ import java.time.temporal.TemporalAdjuster;
 public class date_and_time_api {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int day = sc.nextInt();
+//        int day = sc.nextInt();
         int month = sc.nextInt();
         int year = sc.nextInt();
 //        LocalDate n  = LocalDate.
-        LocalDate date = LocalDate.of(year, month, day);
+        LocalDate date = LocalDate.of(year, month, 1);
         System.out.println(date.getDayOfYear());
         System.out.println(date);
         System.out.println(date.getDayOfWeek());
