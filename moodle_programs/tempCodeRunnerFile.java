@@ -10,16 +10,25 @@ class biggestOfTwoNumbers {
             System.out.println("Only two numbers are allowed");
             System.exit(0);
         }
-        for (int i = 0; i < input.length; i++) {
+        else {
+            for (String s : input) {
 //            numbers[i] = Integer.parseInt(input[i]);
-            if (input[i].matches("[a-zA-Z]")) {
-                System.out.println("invalid input only integers are alowed");
-                System.exit(0);
+                if (s.matches("[^0-9]")) {
+                    System.out.println("invalid input only integers are alowed");
+                    System.exit(0);
+                }
+            }
+            for (int i=0;i<2;i++) {
+                numbers[i] = Integer.parseInt(input[i]);
+            }
+            if (numbers[0] == numbers[1]) {
+                System.out.println("numbers are equal");
+            } else if (numbers[0] > numbers[1]) {
+                System.out.println(numbers[0] + " is greater");
+            }
+            else {
+                System.out.println(numbers[1] + " is greater");
             }
         }
-//        if (input[0] > input[1]) {
-//
-//        }
-
     }
 }
