@@ -1,0 +1,12 @@
+n = int(input())
+arr = [int(x) for x in input().split()]
+# for _ in range(n):
+#     arr.append(int(input()))
+
+arr1 = []
+for i in arr:
+    if i not in arr1:
+        arr1.append(i)
+
+for i in arr1:
+    print(i, end=" ")
