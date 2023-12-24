@@ -98,3 +98,40 @@ public class distinctArrayElements {
         }
     }
 }
+
+
+
+////import java.io.BufferedReader;
+////        import java.io.IOException;
+////        import java.io.InputStreamReader;
+////
+////public class uniqueElementsOfArray {
+////    public static void main(String[] args) throws IOException {
+////        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+////        int n = Integer.parseInt(br.readLine());
+////        String[] inputs = br.readLine().split(" ");
+////        int[] arr = new int[n];
+////        for (int i = 0; i < n; i++) {
+////            arr[i] = Integer.parseInt(inputs[i]);
+////        }
+////
+////        int[] arr1 = new int[n];
+////        int length = 0;
+////        outer: for (int i : arr) {
+////            for (int j = 0; j < length; j++) {
+////                if (arr1[j] == i) {
+////                    continue outer;
+////                }
+////            }
+////            arr1[length++] = i;
+////        }
+////
+////        if (length == 1 && n != 1) {
+////            System.out.println("No Unique Element");
+////        } else {
+////            for (int i = 0; i < length; i++) {
+////                System.out.print(arr1[i] + " ");
+////            }
+////        }
+////    }
+//}
