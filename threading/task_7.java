@@ -1,6 +1,6 @@
 package threading;
 
-import java.lang.management.RuntimeMXBean;
+// import java.lang.management.RuntimeMXBean;
 
 class FT implements Runnable {
     public void run() {
@@ -84,9 +84,11 @@ public class task_7 {
             }
         };
 
+        
         new Thread(runnable1).start();
         new Thread(runnable2).start();
         new Thread(runnable3).start();
+
 
 
     }
