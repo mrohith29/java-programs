@@ -20,7 +20,7 @@ public class invoking_constructor {
     }
 }
 
-class Main {
+class ic {
     public static void main(String[] args) {
         invoking_constructor ob1 = new invoking_constructor();
         ob1.display();

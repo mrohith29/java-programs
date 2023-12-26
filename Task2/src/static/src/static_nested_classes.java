@@ -14,7 +14,7 @@ public class static_nested_classes {
     }
 }
 
-class Main {
+class snc {
     public static void main(String[] args) {
         static_nested_classes.first_inner_class ob =new static_nested_classes.first_inner_class(); // if the inner class is static then we need to create object like this
         static_nested_classes.second_inner_class newob = new static_nested_classes().new second_inner_class(); // if the inner class is not static then we need to create object like this

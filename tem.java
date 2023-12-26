@@ -37,20 +37,20 @@
 //    }
 //}
 
-class one {
-    one() {
+class on {
+    on() {
         System.out.println("hello");
     }
 }
 
-class two extends one {
-    two() {
+class tw extends on {
+    tw() {
         super();
     }
 }
 
 class temp {
     public static void main(String[] args) {
-        two ob = new two();
+        tw ob = new tw();
     }
 }
