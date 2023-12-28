@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Abstraction/Abstraction_interface.iml" filepath="$PROJECT_DIR$/Abstraction/Abstraction_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Applets/Applets.iml" filepath="$PROJECT_DIR$/Applets/Applets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Self practise/Self practise.iml" filepath="$PROJECT_DIR$/Self practise/Self practise.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
