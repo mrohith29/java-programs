@@ -11,7 +11,5 @@ class sumOfMatrix {
           matrix[i][j] = Integer.parseInt(in[j]);
       }
     }
-    
-
   }
-}       
+}

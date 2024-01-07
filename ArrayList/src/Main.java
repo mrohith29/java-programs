@@ -12,7 +12,7 @@ class Main  {
         Al.add(4);
         Al.add(6);
         ArrayList arr = null;// new ArrayList(Al);
-        arr.addAll(Al);
+        //arr.addAll(Al);
 
 
         ArrayList arr1 = new ArrayList();
