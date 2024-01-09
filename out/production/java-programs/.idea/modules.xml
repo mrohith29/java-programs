@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Abstraction/Abstraction_interface.iml" filepath="$PROJECT_DIR$/Abstraction/Abstraction_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Applets/Applets.iml" filepath="$PROJECT_DIR$/Applets/Applets.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashTable/HashTable.iml" filepath="$PROJECT_DIR$/HashTable/HashTable.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Self practise/Self practise.iml" filepath="$PROJECT_DIR$/Self practise/Self practise.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
@@ -17,10 +18,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/java-programs.iml" filepath="$PROJECT_DIR$/.idea/java-programs.iml" />
       <module fileurl="file://$PROJECT_DIR$/object-oriented-programs/object-oriented-programs.iml" filepath="$PROJECT_DIR$/object-oriented-programs/object-oriented-programs.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern problems/pattern problems.iml" filepath="$PROJECT_DIR$/pattern problems/pattern problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stack/stack.iml" filepath="$PROJECT_DIR$/stack/stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2/src/static/static.iml" filepath="$PROJECT_DIR$/Task2/src/static/static.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2/src/super_keyword/super_keyword.iml" filepath="$PROJECT_DIR$/Task2/src/super_keyword/super_keyword.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2/src/this_keyword/this_keyword.iml" filepath="$PROJECT_DIR$/Task2/src/this_keyword/this_keyword.iml" />
       <module fileurl="file://$PROJECT_DIR$/typecasting/typecasting.iml" filepath="$PROJECT_DIR$/typecasting/typecasting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vectors/vectors.iml" filepath="$PROJECT_DIR$/vectors/vectors.iml" />
     </modules>
   </component>
 </project>
