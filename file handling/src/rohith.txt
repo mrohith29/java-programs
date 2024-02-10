@@ -3,3 +3,8 @@ class task5B {
  System.out.println("Hello world";
 }
 }
+class task5B {
+ public static void main(String[] args) {
+ System.out.println("Hello world";
+}
+}

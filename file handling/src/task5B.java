@@ -22,7 +22,7 @@ public class task5B {
 //        FileInputStream fis = new FileInputStream(filepath);
         BufferedWriter bw = null;
         try {
-            FileOutputStream fos = new FileOutputStream(filepath);
+//           FileOutputStream fos = new FileOutputStream(filepath);
             FileWriter fw = new FileWriter(filepath, true);
             bw = new BufferedWriter(fw);
 //            bw.write(12);

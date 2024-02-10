@@ -16,5 +16,6 @@ Vector<Integer> v = new Vector<Integer>();
         System.out.println(v.size());
         System.out.println(v.elements());
         System.out.println(v);
+            System.out.println(v.capacity());
     }
 }
