@@ -6,15 +6,17 @@ import java.awt.event.ActionListener;
 public class FlowLayoutSample {
     public static void main(String[] args) {
         JFrame frame = new JFrame("FlowLayout Sample");
+        frame.setLayout(new BorderLayout()); // Set layout of JFrame to BorderLayout
+        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         JPanel panel = new JPanel();
         panel.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
         JButton b1 = new JButton("Red");
         JButton b2 = new JButton("Green");
-        JButton b3 = new JButton("Blue"); // I assume "Blur" was a typo
+        JButton b3 = new JButton("Blue");
         panel.add(b1);
         panel.add(b2);
         panel.add(b3);
-        frame.add(panel);
+        frame.add(panel, BorderLayout.CENTER); // Add panel to CENTER position
         frame.setSize(300, 200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
@@ -35,7 +37,6 @@ public class FlowLayoutSample {
                 panel.setBackground(Color.BLUE);
             }
         });
-        
         
         frame.setVisible(true);
     }
