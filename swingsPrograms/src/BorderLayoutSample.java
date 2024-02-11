@@ -21,30 +21,58 @@ public class BorderLayoutSample {
         panel.add(b4, BorderLayout.WEST);
         panel.add(ta, BorderLayout.CENTER);
 
-        b1.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent ae) {
-                ta.setText("North Button is clicked");
-            }
-        });
-
-        b2.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent ae) {
-                ta.setText("South Button is clicked");
-            }
-        });
-
-        b3.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent ae) {
-                ta.setText("East Button is clicked");
-            }
-        });
-
-        b4.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent ae) {
-                ta.setText("West Button is clicked");
-            }
-        });
-
+//        b1.addActionListener(new ActionListener() {
+//            public void actionPerformed(ActionEvent ae) {
+//                ta.setText("North Button is clicked");
+//            }
+//        });
+//
+//        b2.addActionListener(new ActionListener() {
+//            public void actionPerformed(ActionEvent ae) {
+//                ta.setText("South Button is clicked");
+//            }
+//        });
+//
+//        b3.addActionListener(new ActionListener() {
+//            public void actionPerformed(ActionEvent ae) {
+//                ta.setText("East Button is clicked");
+//            }
+//        });
+//
+//        b4.addActionListener(new ActionListener() {
+//            public void actionPerformed(ActionEvent ae) {
+//                ta.setText("West Button is clicked");
+//            }
+//        });
+//
         frame.setVisible(true);
+
+        b1.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent e) {
+                ta.setText("North button pressed");
+            }
+        });
+
+        b2.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent e) {
+                ta.setText("South button pressed");
+            }
+        });
+
+        b3.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent e) {
+                ta.setText("East button pressed");
+            }
+        });
+
+        b4.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent e) {
+                ta.setText("West button pressed");
+            }
+        });
     }
 }
