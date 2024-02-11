@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Example1",
+      "request": "launch",
+      "mainClass": "userDefinedExceptions.Example1",
+      "projectName": "java-programs_149572b4"
+    },
+    {
+      "type": "java",
       "name": "multiple_inheritance",
       "request": "launch",
       "mainClass": "multiple_inheritance",

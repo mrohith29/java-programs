@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/stack/stack.iml" filepath="$PROJECT_DIR$/stack/stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2/src/static/static.iml" filepath="$PROJECT_DIR$/Task2/src/static/static.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2/src/super_keyword/super_keyword.iml" filepath="$PROJECT_DIR$/Task2/src/super_keyword/super_keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swingsPrograms/swingsPrograms.iml" filepath="$PROJECT_DIR$/swingsPrograms/swingsPrograms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task2/src/this_keyword/this_keyword.iml" filepath="$PROJECT_DIR$/Task2/src/this_keyword/this_keyword.iml" />
       <module fileurl="file://$PROJECT_DIR$/typecasting/typecasting.iml" filepath="$PROJECT_DIR$/typecasting/typecasting.iml" />
       <module fileurl="file://$PROJECT_DIR$/vectors/vectors.iml" filepath="$PROJECT_DIR$/vectors/vectors.iml" />
