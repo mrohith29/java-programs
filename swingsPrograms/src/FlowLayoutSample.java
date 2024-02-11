@@ -16,7 +16,8 @@ public class FlowLayoutSample {
         panel.add(b1);
         panel.add(b2);
         panel.add(b3);
-        frame.add(panel, BorderLayout.CENTER); // Add panel to CENTER position
+//        frame.add(panel, BorderLayout.CENTER); // Add panel to CENTER position
+        frame.add(panel);
         frame.setSize(300, 200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
